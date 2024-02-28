@@ -1,0 +1,11 @@
+{
+	"name": "DestLink",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://storageaccadi.dfs.core.windows.net/"
+		}
+	}
+}
