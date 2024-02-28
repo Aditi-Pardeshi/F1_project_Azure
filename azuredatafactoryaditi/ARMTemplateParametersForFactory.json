@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azuredatafactoryaditi"
+		},
+		"DestLink_properties_typeProperties_url": {
+			"value": "https://storageaccadi.dfs.core.windows.net/"
+		},
+		"srcLink_properties_typeProperties_serviceEndpoint": {
+			"value": "https://srcstorage.blob.core.windows.net/"
+		}
+	}
+}
